@@ -12,6 +12,6 @@ Chilometraggio: FLOAT (7, 0), NOT NULL
 Cambio: SMALLINT , NULL 
 Classe Euro: SMALLINT , NOT NULL 
 Tipo Veicolo: VARCHAR (150), NOT NULL
-Disponibilità: TINYINT, NOT NULL
+Disponibilità: BOOL, NOT NULL
 
 
