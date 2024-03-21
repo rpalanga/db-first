@@ -1,14 +1,17 @@
 Tabella: Auto;
 
 id: SMALLINT, PK
-Tipologia: VARCHAR(100)
-Marca: VARCHAR (30) 
-Carrozzeria: VARCHAR (150)
-Alimentazione: VARCHAR (150)
-Anno: YEAR 
-Cambio: SMALLINT 
-Classe Euro: SMALLINT
-Tipo Veicolo: VARCHAR (150)
-Disponibilità: TINYINT ,
+Tipologia: VARCHAR(30) , NOT NULL
+Colore: VARCHAR (150) , NULL 
+Marca: VARCHAR (30) , NULL
+Carrozzeria: VARCHAR (100) , NULL
+Alimentazione: VARCHAR (150) , NULL
+Anno: YEAR , NOT NULL
+Prezzo: FLOAT (7, 2), NOT NULL
+Chilometraggio: FLOAT (7, 0), NOT NULL
+Cambio: SMALLINT , NULL 
+Classe Euro: SMALLINT , NOT NULL 
+Tipo Veicolo: VARCHAR (150), NOT NULL
+Disponibilità: TINYINT, NOT NULL
 
 
