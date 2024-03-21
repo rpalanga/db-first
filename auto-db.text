@@ -1,0 +1,14 @@
+Tabella: Auto;
+
+id: SMALLINT, PK
+Tipologia: VARCHAR(100)
+Marca: VARCHAR (30) 
+Carrozzeria: VARCHAR (150)
+Alimentazione: VARCHAR (150)
+Anno: YEAR 
+Cambio: SMALLINT 
+Classe Euro: SMALLINT
+Tipo Veicolo: VARCHAR (150)
+Disponibilità: TINYINT ,
+
+
